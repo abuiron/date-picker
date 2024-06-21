@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="date-picker-container">
+        <label for="date-input">
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="text" id="date-input" placeholder="Pick a date">
+        </label>
+        <div id="calendar" class="calendar hidden">
+            <div class="calendar-header">
+                <button id="prev-month">&lt;</button>
+                <span id="month-year"></span>
+                <button id="next-month">&gt;</button>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-week-days">
+                    <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+                </div>
+                <div id="calendar-dates" class="calendar-dates"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c96c743635.js" crossorigin="anonymous"></script>
+</body>
+</html>
