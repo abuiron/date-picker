@@ -3,7 +3,7 @@
 This repository contains the code for a simple and responsive Date Picker component built using HTML, CSS, and JavaScript. The date picker allows users to select a date from an interactive calendar.
 
 ## Table of Contents
-- [Preview](#preview)
+- [Preview](#live-demo)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
